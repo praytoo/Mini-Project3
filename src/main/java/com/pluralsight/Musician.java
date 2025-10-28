@@ -24,4 +24,14 @@ public class Musician extends Item {
         piano.use();
         System.out.println("HELLO FROM THE OTHER SIDEEEEE");
     }
+
+    public double totalValue(){
+        MusicItem microphone = new MusicItem("microphone", 100, false);
+        microphone.getPrice();
+        MusicItem piano = new MusicItem("piano", 5000, false);
+        piano.getPrice();
+        double totalValue = microphone.getPrice() + piano.getPrice();
+        return totalValue;
+    }
+
 }

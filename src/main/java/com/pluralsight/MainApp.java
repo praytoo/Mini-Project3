@@ -21,6 +21,8 @@ public class MainApp {
         for (Item item : items){
             wand.use();
             piano.use();
+
+            System.out.println(berry.totalValue());
         }
     }
 }
