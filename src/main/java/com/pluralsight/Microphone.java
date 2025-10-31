@@ -1,8 +1,10 @@
 package com.pluralsight;
 
+import java.util.List;
+
 public class Microphone extends Item{
-    public Microphone(String name, double price) {
-        super(name, price);
+    public Microphone(String name, double price, List<Item> items) {
+        super(name, price, items);
     }
 
     @Override

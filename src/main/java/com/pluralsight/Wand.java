@@ -1,8 +1,10 @@
 package com.pluralsight;
 
+import java.util.ArrayList;
+
 public class Wand extends Item{
     public Wand(String name, double price) {
-        super(name, price);
+        super(name, price, new ArrayList<>());
     }
 
     @Override

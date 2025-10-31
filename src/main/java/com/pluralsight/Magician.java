@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Magician extends Item {
     public Magician(String name, double price, List<MagicItem> magicShow) {
-        super(name, price);
+        super(name, price, new ArrayList<>());
         this.magicShow = magicShow;
     }
     public void add(MagicItem item){
