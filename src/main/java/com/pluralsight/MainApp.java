@@ -12,7 +12,7 @@ public class MainApp {
         berry.add(piano);
         berry.add(microphone);
         berry.playConcert();
-        System.out.println(berry.totalValue());
+        System.out.println(berry.totalValue()); // need to adjust totalValue();
 
         MagicItem wand = new MagicItem("wand", 250, 2);
         Magician waldo = new Magician("waldo", 50, new ArrayList<>());
